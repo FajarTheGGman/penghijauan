@@ -66,4 +66,3 @@ jobs:
       - name: finishing
         run: |
           git add .
-          git config user.name 'FajarTheGGman'

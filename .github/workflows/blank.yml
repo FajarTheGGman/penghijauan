@@ -38,6 +38,7 @@ jobs:
           git add .
           git config user.name 'FajarTheGGman'
           git config user.email 'newstrooper731@gmail.com'
+          git commit -m "penghijauan"
           git push 
           
       - name: third commit
@@ -48,5 +49,6 @@ jobs:
           git add .
           git config user.name 'FajarTheGGman'
           git config user.email 'newstrooper731@gmail.com'
+          git commit -m "penghijauan"
           git push 
 

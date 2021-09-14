@@ -20,15 +20,21 @@
 ```yml
 # This is a basic workflow to help you get started with Actions
 
-name: Penghijauan
+name: CI
 
 # Controls when the workflow will run
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: master
+    branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '* 1 * * *'
+    - cron: '0 */6 * * *'
+
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -43,26 +49,24 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Banner
-        run: echo Mulai Penghijauan...
+      - name: first commit
+        run: date >> dump.md
 
       # Runs a set of commands using the runners shell
-      - name: update readme 
-        run: date >> README.md
-      - name: push git
+      - name: second commit
         run: |
           git add .
-          git config user.name 'yourusername'
-          git config user.email 'yourmail@example.com'
-          git commit -m "Penghijauan"
+          git config user.name 'FajarTheGGman'
+          git config user.email 'newstrooper731@gmail.com'
           git push 
-      - name: update
+          
+      - name: third commit
         run: sed -i '$ d' README.md
-      - name: second push
+        
+      - name: finishing
         run: |
           git add .
-          git config user.name 'yourusername'
-          git config user.email 'yourmail@example.com'
-          git commit -m "Penghijauan"
+          git config user.name 'FajarTheGGman'
+          git config user.email 'newstrooper731@gmail.com'
           git push 
 ```

@@ -64,4 +64,3 @@ jobs:
         run: sed -i '$ d' README.md
         
       - name: finishing
-        run: |

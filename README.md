@@ -65,4 +65,3 @@ jobs:
         
       - name: finishing
         run: |
-          git add .

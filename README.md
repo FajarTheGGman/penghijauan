@@ -60,4 +60,3 @@ jobs:
           git config user.email 'newstrooper731@gmail.com'
           git push 
           
-      - name: third commit

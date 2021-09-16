@@ -58,4 +58,3 @@ jobs:
           git add .
           git config user.name 'FajarTheGGman'
           git config user.email 'newstrooper731@gmail.com'
-          git push 

@@ -56,4 +56,3 @@ jobs:
       - name: second commit
         run: |
           git add .
-          git config user.name 'FajarTheGGman'

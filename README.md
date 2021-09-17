@@ -55,4 +55,3 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: second commit
         run: |
-          git add .

@@ -51,4 +51,3 @@ jobs:
       # Runs a single command using the runners shell
       - name: first commit
         run: date >> dump.md
-

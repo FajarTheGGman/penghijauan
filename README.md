@@ -42,4 +42,3 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-

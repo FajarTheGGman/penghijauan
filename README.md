@@ -35,4 +35,3 @@ on:
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
-

@@ -37,4 +37,3 @@ on:
   # Allows you to run this workflow manually from the Actions tab
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:

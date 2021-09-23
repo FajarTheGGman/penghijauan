@@ -31,4 +31,3 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 
-  pull_request:

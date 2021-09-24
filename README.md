@@ -28,4 +28,3 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-  schedule:

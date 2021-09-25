@@ -23,4 +23,3 @@
 name: CI
 
 # Controls when the workflow will run
-on:

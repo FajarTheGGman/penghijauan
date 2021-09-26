@@ -18,4 +18,3 @@
 ![](https://img.shields.io/badge/active_every-5:05_AM-lime)
 
 ```yml
-# This is a basic workflow to help you get started with Actions

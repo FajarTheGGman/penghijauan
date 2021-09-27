@@ -16,4 +16,3 @@
 <b>File Konfigurasi</b>
 
 ![](https://img.shields.io/badge/active_every-5:05_AM-lime)
-

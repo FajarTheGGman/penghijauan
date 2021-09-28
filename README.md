@@ -13,4 +13,3 @@
 </div>
 
 
-<b>File Konfigurasi</b>

@@ -6,4 +6,3 @@
 ![](https://img.shields.io/badge/git-commit-lime)
 ![](https://img.shields.io/badge/author-FajarTheGGman-white)
 
-

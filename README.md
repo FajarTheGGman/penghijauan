@@ -9,4 +9,3 @@
 
 
 <div align="center">
-  <img src="https://i.ibb.co/ygMh8GG/2913483.png" width="190" />

@@ -3,4 +3,3 @@
 
 ![](https://img.shields.io/badge/github-actions-blue)
 ![](https://img.shields.io/badge/ci-cd-red) 
-![](https://img.shields.io/badge/git-commit-lime)
